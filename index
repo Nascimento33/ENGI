@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <style>
+        /* Estilos para o cabeçalho */
+        header {
+            background-color: gold; /* Cor de fundo */
+            padding: 5px;
+            text-align: center; /* Alinhar o texto ao centro */
+            color: white; /* Cor do texto */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        /* Estilo para o menu de navegação */
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white; /* Cor dos links */
+            text-decoration: none; /* Remover sublinhado */
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+
+        nav a:hover {
+            text-decoration: underline; /* Sublinhado ao passar o mouse */
+        }
+    </style>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">ENGI-SP</a>
+            </li>
+            <li>
+                <a href="Peças.html">PRODUTOS E SERVIÇOS</a>
+            </li>
+            <li>
+                <a href="contato.html">CONTATO</a>
+            </li>
+        </ul>
+        <header>
+            
+            <style>
+                #mensagem {
+                    font-size: 80px;
+                    opacity: 0;
+                    transform: translateY(30px);
+                    transition: opacity 2s ease-in, transform 2s ease-in;
+                    text-align: center;
+                    margin-top: 100px;
+                    color:black;
+                }
+            </style>
+            <div id="mensagem">Bem-vindo a ENGI-SP!</div>
+        
+            <script>
+                window.onload = function() {
+                    var mensagem = document.getElementById("mensagem");
+                    mensagem.style.opacity = "1";
+                    mensagem.style.transform = "translateY(0)";
+    
+                };
+            </script>
+            <div ,class="center">
+            <img src="img tr/logo.gif"></img>
+        </div>
+            
+            </div>
+        </header>
+        <main>
+            <section>
+                
+                <h3>Sobre a Empresa</h3>
+                <P>
+                    A ENGI-SP atua desde 2001 no mercado de reposição de peças para tratores KOMATSU.
+
+Contamos com um estoque com mais de 4.000 ítens, entre originais, nacionais, importadas e usadas. Garantindo qualidade no atendimento, preço justo, pontualidade e agilidade na entrega.
+
+Trabalhamos com os melhores fabricantes nacionais, preservando a qualidade e reduzindo custos.
+
+ 
+                </P>
+            </section>
+            <section>
+                <h3>Nossos Produtos:</h3>
+                <P>
+                    Possuimos estoque com mais de 4.000 ítens. Trabalhamos com peças para tratores Komatsu.
+
+Trator de esteira: D30,D41, D50, D60, D61, D65.
+Escavadeira Hidraulica: PC150, PC160, PC200.
+Pá Carregadeira: WA180, WA200, W320.
+E outros modelos
+
+São inumeras peças de reposição. Novas e seminovas, originais entre indicadorse, faróis, lanternas, mangotes, guias, sedes, tuchos, transmissões, bombas, entre outras.
+
+Se você procura peça para seu trator, na ENGI-SP você encontra. Entre em contato conosco.
+                </P>
+            </section>
+            <section>
+                <h3>Nossos Serviços:</h3>    
+                <P>
+                    Além da venda de peças, oferecemos serviços especializados, como:
+
+                    Manutenção preventiva e corretiva para tratores e implementos agrícolas.
+                    Instalação e substituição de peças com técnicos especializados.
+                    Consultoria técnica, ajudando a identificar a solução ideal para suas necessidades.
+                </P>
+            </section>
+            <section>
+                <h2> Localização </h2>
+                <h3>
+                    <a href="https://www.google.com/maps/place/R.+Cl%C3%A9lia,+469+-+%C3%81gua+Branca,+S%C3%A3o+Paulo+-+SP,+05042-000/data=!4m2!3m1!1s0x94cef80ba57f780d:0xe364117a27cc3ef4?sa=X&ved=1t:242&ictx=111" target="_blank">Clique aqui para ver a localização</a>
+                    <style>
+                        /* Estilizando o link */
+                        a {
+                            color: white; /* Cor do link padrão */
+                            text-decoration: none; /* Remove o sublinhado do link */
+                            font-size: 18px; /* Tamanho do texto */
+                        }
+                
+                        /* Quando o usuário passar o mouse sobre o link */
+                        a:hover {
+                            color: gold; /* Cor do link ao passar o mouse */
+                        }
+                
+                        /* Quando o usuário clicar no link */
+                        a:active {
+                            color: gold; /* Cor do link ao clicar */
+                        }
+                        
+                    </style>
+                </h3>
+            </section>
+        </main>
+    </nav>
+</body>
+</html>
